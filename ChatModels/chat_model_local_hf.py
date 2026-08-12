@@ -22,6 +22,6 @@ pipe = pipeline(
 
 llm = HuggingFacePipeline(pipeline=pipe)
 
-result = llm.invoke("What is the capital of Nepal?")
+result = llm.invoke("Who is messi?")
 
 print(result)
