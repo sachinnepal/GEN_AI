@@ -2,6 +2,7 @@ import torch
 from transformers import pipeline, BitsAndBytesConfig
 from langchain_huggingface import HuggingFacePipeline
 
+#device configuration
 quant_config = BitsAndBytesConfig(
     load_in_4bit=True,
     bnb_4bit_compute_dtype=torch.float16,
