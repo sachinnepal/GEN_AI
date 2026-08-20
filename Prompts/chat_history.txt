@@ -1,0 +1,4 @@
+Human: Where is my order?
+AI: Your order is being shipped.
+Human: When will it arrive?
+AI: It should arrive tomorrow.
